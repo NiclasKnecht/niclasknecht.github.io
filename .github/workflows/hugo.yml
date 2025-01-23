@@ -64,7 +64,7 @@ jobs:
 
   # Deployment job
   deploy:
-    run: chmod -R a+rX ./site
+    
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -72,5 +72,6 @@ jobs:
     needs: build
     steps:
       - name: Deploy to GitHub Pages
+        run: chmod -R a+rX ./site
         id: deployment
         uses: actions/deploy-pages@v4
