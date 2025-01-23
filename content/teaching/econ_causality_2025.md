@@ -23,7 +23,6 @@ showToc: false
 Using simple OLS specifications, the course will first cover issues of endogeneity arising from selection bias or reverse causality. The course will then cover the basics of various evaluation designs addressing endogeneity issues, namely randomized control trials, difference-in-difference, and regression discontinuity approaches. Lecture classes will cover the main concepts developed in this literature, and will present a set key research papers that rely on these approaches. During tutorial classes, students will be provided with data-based exercise, reproducing results from recent evaluations of public policies. Topic of tutorial class will include issues of development economics, international economics and finance (according to students’ main Master specialisation).
 
 ### Cheat Sheet
-Econometrics of causality - Cheat sheet
 
 1) What is the outcome variable? What is the treatment variable?
 2) Why would a simple OLS not work? (residual not truly independent from treatment: cov(T, e) != 0; explain why! - what direction does the bias go to?)
