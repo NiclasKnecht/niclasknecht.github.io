@@ -1,5 +1,3 @@
-Rename to econ_causality_2024.md to unhide
-
 ---
 title: "Tutorial Econometrics of Causality (SS25)" 
 date: 2025-01-10
