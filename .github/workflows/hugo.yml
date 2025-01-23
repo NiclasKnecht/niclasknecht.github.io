@@ -48,7 +48,7 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Debug: List contents of public directory
+      - name: List contents of public directory
         run: ls -al ./public
       - name: Upload artifact
         uses: actions/upload-artifact@v4
