@@ -34,7 +34,7 @@ The course provided students with a more advanced look into the methods of Econo
 
 
 
-## Tutorial 1 (due 15.02.2024, 11h30)
+## Tutorial 1 (due 13.02.2025, 11h30)
 
 OLS. Expected Value. Heteroskedasticity. 
 
