@@ -24,17 +24,14 @@ The course provided students with a more advanced look into the methods of Econo
 
 ---
 
-<!---
+
 
 ## Introduction
 
 ##### Slides
 
-- [Introduction](/teaching/econometrics_2024_presentation_introduction.pdf)
+- [Introduction](/teaching/econometrics_2025_presentation_introduction.pdf)
 
-##### Data files
-
-- [Introduction data](/teaching/econometrics_2024_auto.dta)
 
 
 ## Tutorial 1 (due 15.02.2024, 11h30)
@@ -46,18 +43,14 @@ OLS. Expected Value. Heteroskedasticity.
 
 ##### Problem set
 
-- [Problem Set 1](/teaching/econometrics_2024_ps1.pdf)
-
-I have been made aware of a small error in question 3, where the denominator is missing a square. I have uploaded a corrected version. I apologise for the inconvenience caused.
-
-- [Problem Set 1 (corrected)](/teaching/econometrics_2024_ps1_corrected.pdf)
+- [Problem Set 1](/teaching/econometrics_2025_ps1.pdf)
 
 
 ##### Data files
 
 - [Data Problem Set 1](/teaching/econometrics_2024_td1_data.zip)
 
-
+<!---
 
 ## Tutorial 2 (due 07.03.2024)
 
