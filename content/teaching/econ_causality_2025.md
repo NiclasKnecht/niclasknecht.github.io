@@ -25,7 +25,7 @@ Using simple OLS specifications, the course will first cover issues of endogenei
 ### Cheat Sheet
 
 1) What is the outcome variable? What is the treatment variable?
-2) Why would a simple OLS not work? (residual not truly independent from treatment: cov(T, e) != 0; explain why! - what direction does the bias go to?)
+2) Why would a simple OLS not work? (residual not truly independent from treatment: cov(T, e) != 0; explain why! - in what direction does the bias go?)
 3) What could a possible solution be (in this course: RDD, RCT, Diff-in-Diff)? Write the equation for it. Which one is the variable of interest and what does it measure?
 4) What assumption(s) does this solution rely on? (continuity, randomisation, ...)
 5) Are there ethical concerns (RCT: maybe, others, no) and why (RCT: you exclude some people; others: rely on already existing data)? If yes, need to go to ethical committee
