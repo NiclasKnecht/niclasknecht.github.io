@@ -33,19 +33,15 @@ Using simple OLS specifications, the course will first cover issues of endogenei
 
 
 ---
-<!---
 ## Tutorial 1
 
 RCT.
 
 ##### Problem Set
 
-- [Problem Set 1](/teaching/econ_causality_2024_ps1.pdf)
+- [Problem Set 1](/teaching/econ_causality_2025_td1.do)
 
 
-##### Data
-
-- [Data Problem Set 1](/teaching/econ_causality_2024_td1_data.dta)
 
 
 ## Tutorial 2
