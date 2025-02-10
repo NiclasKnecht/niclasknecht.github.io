@@ -43,19 +43,16 @@ RCT.
 
 
 
-<!--
+
 ## Tutorial 2
 
 RCT.
 
 ##### Problem Set
 
-- [Problem Set 2](/teaching/econ_causality_2024_ps2.pdf)
+- [Problem Set 2](/teaching/econ_causality_2025_td2.pdf)
 
-
-##### Data
-
-- [Data Problem Set 2](/teaching/econ_causality_2024_td2_data.zip)
+<!--
 
 
 ## Tutorial 3
