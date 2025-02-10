@@ -50,7 +50,7 @@ RCT.
 
 ##### Problem Set
 
-- [Problem Set 2](/teaching/econ_causality_2025_td2.pdf)
+- [Problem Set 2](/teaching/econ_causality_2025_td2.do)
 
 <!--
 
