@@ -48,7 +48,7 @@ OLS. Expected Value. Heteroskedasticity.
 
 ##### Data files
 
-- [Data Problem Set 1](/teaching/econometrics_2024_td1_data.zip)
+- [Data Problem Set 1](/teaching/econometrics_2025_td1_data.zip)
 
 
 
