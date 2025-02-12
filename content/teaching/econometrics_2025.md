@@ -60,12 +60,12 @@ OLS. Proxy variables. Heteroskedasticity. Non-linear functions.
 
 - [Problem Set 2](/teaching/econometrics_2025_ps2.pdf)
 
-
+<!---
 ##### Data files
 
 - [Data Problem Set 2](/teaching/econometrics_2025_td2_data.zip)
 
-<!---
+
 ## Tutorial 3 (due 21.03.2024)
 
 OLS. Predicted Values. Interactions. Dummy variables.
