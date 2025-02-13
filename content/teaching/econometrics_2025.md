@@ -52,15 +52,15 @@ OLS. Expected Value. Heteroskedasticity.
 
 
 
-## Tutorial 2 (due 07.03.2024)
+## Tutorial 2 (due 13.03.2025)
 
 OLS. Proxy variables. Heteroskedasticity. Non-linear functions.
-
+<!---
 ##### Problem set
 
 - [Problem Set 2](/teaching/econometrics_2025_ps2.pdf)
 
-<!---
+
 ##### Data files
 
 - [Data Problem Set 2](/teaching/econometrics_2025_td2_data.zip)
