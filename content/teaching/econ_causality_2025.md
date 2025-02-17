@@ -42,7 +42,7 @@ RCT.
 
 - [Problem Set 2](/teaching/econ_causality_2025_td2.do)
 
-<!--
+
 
 
 ## Tutorial 3
@@ -51,13 +51,9 @@ Difference-in-Difference.
 
 ##### Problem Set
 
-- [Problem Set 3](/teaching/econ_causality_2024_ps3.pdf)
+- [Problem Set 3](/teaching/econ_causality_2025_td3.do)
 
-
-##### Data
-
-- [Data Problem Set 3](/teaching/econ_causality_2024_td3_data.dta)
-
+<!--
 
 ## Tutorial 4
 
