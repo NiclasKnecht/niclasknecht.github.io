@@ -64,24 +64,24 @@ OLS. Proxy variables. Heteroskedasticity. Non-linear functions.
 ##### Data files
 
 - [Data Problem Set 2](/teaching/econometrics_2025_td2_data.zip)
-<!---
 
-## Tutorial 3 (due 21.03.2024)
+
+## Tutorial 3 (due 27.03.2024)
 
 OLS. Predicted Values. Interactions. Dummy variables.
 
 ##### Problem set
 
-- [Problem Set 3](/teaching/econometrics_2024_ps3.pdf)
+- [Problem Set 3](/teaching/econometrics_2025_ps3.pdf)
 
 
 ##### Data files
 
-- [Data Problem Set 3](/teaching/econometrics_2024_td3_data.zip)
+- [Data Problem Set 3](/teaching/econometrics_2025_td3_data.zip)
 
 
 
-## Tutorial 4 (due 04.04.2024)
+## Tutorial 4 (not graded)
 
 OLS. LPM. Logit / Probit. Panel data.
 
@@ -89,9 +89,11 @@ OLS. LPM. Logit / Probit. Panel data.
 
 ##### Problem set
 
-- [Problem Set 4](/teaching/econometrics_2024_ps4.pdf)
+- [Problem Set 4](/teaching/econometrics_2025_ps4.pdf)
 
 
 ##### Data files
 
-- [Data Problem Set 4](/teaching/econometrics_2024_td4_data.zip)
+- [Data Problem Set 4](/teaching/econometrics_2025_td4_data.zip)
+
+This problem set will not be graded. You are more than welcome to send me your solutions and get them corrected. I have made the exam slightly easier to make up for this.
