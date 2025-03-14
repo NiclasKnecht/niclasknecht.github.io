@@ -66,6 +66,11 @@ OLS. Proxy variables. Heteroskedasticity. Non-linear functions.
 - [Data Problem Set 2](/teaching/econometrics_2025_td2_data.zip)
 
 
+##### Solution
+- [.do File](/teaching/econometrics_2025_td2_solutions.do)
+
+
+
 ## Tutorial 3 (due 27.03.2024)
 
 OLS. Predicted Values. Interactions. Dummy variables.
@@ -78,10 +83,6 @@ OLS. Predicted Values. Interactions. Dummy variables.
 ##### Data files
 
 - [Data Problem Set 3](/teaching/econometrics_2025_td3_data.zip)
-
-
-##### Solution
-- [.do File](/teaching/econometrics_2025_td3_solutions.do)
 
 
 
