@@ -80,6 +80,10 @@ OLS. Predicted Values. Interactions. Dummy variables.
 - [Data Problem Set 3](/teaching/econometrics_2025_td3_data.zip)
 
 
+##### Solution
+- [.do File](/teaching/econometrics_2025_td3_solutions.do)
+
+
 
 ## Tutorial 4 (not graded)
 
