@@ -61,5 +61,5 @@ Regression Discontinuity Design.
 
 ##### Problem Set
 
-- [Problem Set 4](/teaching/econ_causality_2025_td4.pdf)
+- [Problem Set 4](/teaching/econ_causality_2025_td4.do)
 
