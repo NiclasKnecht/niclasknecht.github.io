@@ -12,5 +12,5 @@ cover:
 
 *Preliminary draft not yet available*
 
-- Experimental study on whether collective deliberation can elicit authentic preferences in domains of room temperature and time use
+- Experimental study on whether collective deliberation through the help of a LLM can elicit authentic preferences. Authentic preferences will be proxied through increased confidence in their choices, thus decreased variance in choices. 
 
