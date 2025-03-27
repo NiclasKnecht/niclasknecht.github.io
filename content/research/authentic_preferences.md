@@ -4,7 +4,7 @@ date: 2023-12-06
 url: /research/authentic_preferences/
 author: ["Olivier Bargain", "Marc Fleurbaey", "Niclas Knecht"]
 description: "" 
-summary: "Collective deliberation with the help of a LLM"
+summary: "Using a LLM for deliberation and increased confidence in behaviour for authentic preferences"
 cover:
     alt: "Authentic preferences collective deliberation"
     relative: false
