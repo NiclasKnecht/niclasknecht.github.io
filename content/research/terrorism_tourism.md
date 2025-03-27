@@ -4,7 +4,7 @@ date: 2023-12-06
 url: /research/terrorism_tourism/
 author: ["Niclas Knecht"]
 description: "" 
-summary: "How Does Terrorism Affect Terrorism"
+summary: "Utilising a synthetic control method (SCM)"
 cover:
     alt: "Synthetic Control Method"
     relative: false
