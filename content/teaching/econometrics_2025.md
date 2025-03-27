@@ -86,6 +86,11 @@ OLS. Predicted Values. Interactions. Dummy variables.
 
 
 
+##### Solutions
+- [.do File](/teaching/econometrics_2025_td3_solutions.do)
+- [.pdf](/teaching/econometrics_2025_td3_solutions.pdf)
+
+
 ## Tutorial 4 (not graded)
 
 OLS. LPM. Logit / Probit. Panel data.
