@@ -261,7 +261,8 @@ di "We need to look at coefficient female. We have statistically significant dif
 di "We need to look at coefficient black. We have stiatsically significant difference of " _b[black] " which means that SAT score of black male students is" %3.1f _b[black] " points lower than non-black male students, on average."
 
 * d) What is the estimated difference in SAT score between black women and non-black women? What would you need to do to test whether the difference is statistically significant?
-di "For this, we can look at female_black interaction term. We have statistically significant difference of " _b[fem_black] " points which means that SAT score of female black studets is " %3.2f _b[fem_black] " points higher than non-black female students, on average. (we fix female=1, and then female*black will show the difference between black and non-black female students)"
+scalar difference = -(_b[fem_black] +_b[black])
+di "For this, we can look at female_black interaction term and the term on black. We have statistically significant difference of which means that SAT score of female black studets is " %3.2f difference " points lower than non-black female students, on average. (we fix female=1, and then female*black + black will show the difference between black and non-black female students)"
 
 
 ********************************************************************************
