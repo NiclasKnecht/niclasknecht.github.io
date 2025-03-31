@@ -71,7 +71,7 @@ OLS. Proxy variables. Heteroskedasticity. Non-linear functions.
 
 
 
-## Tutorial 3 (due 27.03.2024)
+## Tutorial 3 (due 27.03.2025)
 
 OLS. Predicted Values. Interactions. Dummy variables.
 
