@@ -106,3 +106,7 @@ OLS. LPM. Logit / Probit. Panel data.
 - [Data Problem Set 4](/teaching/econometrics_2025_td4_data.zip)
 
 This problem set will not be graded. You are more than welcome to send me your solutions and get them corrected. I have made the exam slightly easier to make up for this.
+
+
+##### Solution
+- [.do File](/teaching/econometrics_2025_td4_solutions.do)
