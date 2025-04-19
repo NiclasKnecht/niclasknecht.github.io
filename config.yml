@@ -55,7 +55,7 @@ params:
             - name: Teaching
               url: /teaching/
             - name: CV
-              url: /cv/CV_Niclas_Knecht__Research_-1.pdf
+              url: /cv/CV_Niclas_Knecht_Research.pdf
     socialIcons:
         - name: Email
           url: mailto:niclas.knecht@u-bordeaux.fr
