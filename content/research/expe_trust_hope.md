@@ -20,4 +20,4 @@ Trust in others is vital for the well-functioning of societies. While economists
 ![](/research/expe_trust_hope/outcome_response_treatments.png)
 
 
-- [Working paper](/research/expe_trust_hope/expe_trust_hope_wp.pdf)
+
