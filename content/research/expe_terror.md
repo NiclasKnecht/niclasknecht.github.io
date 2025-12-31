@@ -17,3 +17,6 @@ Terrorist threats systematically shift political preferences toward right-wing p
 
 
 </div>
+
+![](/research/expe_terror/sensitivity_distance_ger.png)
+
