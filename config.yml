@@ -61,8 +61,8 @@ params:
           url: mailto:niclas.knecht@u-bordeaux.fr
         - name: LinkedIn
           url: https://www.linkedin.com/in/niclas-knecht/
-        #- name: GitHub
-        #  url: https://github.com/NiclasKnecht
+        - name: GitHub
+          url: https://github.com/NiclasKnecht
         - name: Location
           url: /location/
 
