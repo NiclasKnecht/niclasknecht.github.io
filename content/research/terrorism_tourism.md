@@ -1,6 +1,6 @@
 ---
 title: How Does Terrorism Affect Tourism?  
-date: 2023-12-06
+date: 2025-07-01
 url: /research/terrorism_tourism/
 author: ["Niclas Knecht"]
 description: "" 
