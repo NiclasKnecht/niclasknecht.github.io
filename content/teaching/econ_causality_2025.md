@@ -6,7 +6,7 @@ url: /teaching/econ_causality_2025
 aliases:
     - /old_url.html
 tags: ["causality","econometrics"]
-author: ["Tanguy Bernard", "Niclas Knecht"]
+author: ["Prof. Tanguy Bernard", "Niclas Knecht"]
 description: "Econometrics of Causality" 
 summary: "I am currently not teaching this course."
 cover:
