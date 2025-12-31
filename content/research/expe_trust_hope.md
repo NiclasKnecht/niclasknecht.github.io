@@ -1,5 +1,5 @@
 ---
-title: How Everyday Threats Undermine Trust and Hope - Experimental Evidence
+title: "How Everyday Threats Undermine Trust and Hope: Experimental Evidence"
 date: 2023-12-01
 url: /research/expe_trust_hope/
 author: ["Mael Astruc-Le Souder", "Olivier Bargain", "Niclas Knecht"]
