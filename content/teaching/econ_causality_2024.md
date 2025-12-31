@@ -1,5 +1,3 @@
-Rename to econ_causality_2024.md to unhide
-
 ---
 title: "Tutorial Econometrics of Causality (SS24)" 
 date: 2024-01-10
@@ -10,7 +8,7 @@ aliases:
 tags: ["causality","econometrics"]
 author: ["Tanguy Bernard", "Niclas Knecht"]
 description: "Econometrics of Causality" 
-summary: "This course will present the basics of the “treatment effect” literature which focuses on issues of causal relationships. In tutorials, students will learn how to implement policy evaluations using data from recent economic policies."
+summary: "I am currently not teaching this course."
 cover:
     image: "/course_figure.png"
     alt: "Causality"
@@ -25,6 +23,9 @@ showToc: false
 Using simple OLS specifications, the course will first cover issues of endogeneity arising from selection bias or reverse causality. The course will then cover the basics of various evaluation designs addressing endogeneity issues, namely randomized control trials, difference-in-difference, and regression discontinuity approaches. Lecture classes will cover the main concepts developed in this literature, and will present a set key research papers that rely on these approaches. During tutorial classes, students will be provided with data-based exercise, reproducing results from recent evaluations of public policies. Topic of tutorial class will include issues of development economics, international economics and finance (according to students’ main Master specialisation).
 
 ---
+
+I am currently not teaching this course.
+
 <!---
 ## Tutorial 1
 
