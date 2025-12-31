@@ -8,7 +8,7 @@ aliases:
 tags: ["stata","econometrics"]
 author: ["Valerio Sterzi", "Niclas Knecht"]
 description: "Econometrics" 
-summary: "This course will present underpinnings and problems of Ordinary Least Squares (OLS) regressions. In tutorials, students will work on both theoretical and practical problems."
+summary: "I am currently not teaching this course."
 cover:
     image: "/course_figure.png"
     alt: "Econometrics"
