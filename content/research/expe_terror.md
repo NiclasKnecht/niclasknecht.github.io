@@ -1,12 +1,12 @@
 ---
 title: Terror and Conservative Shifts: Cross-fertilising approaches
-date: 2023-12-01
-url: /research/trust_emotions/
+date: 2025-12-30
+url: /research/expe_terror/
 author: ["Alpaslan Akay", "Olivier Bargain", "Niclas Knecht"]
 description: "" 
 summary: "Using quasi- & randomised experiments"
 cover:
-    alt: "Mediating effect emotion on trust"
+    alt: ""
     relative: false
 ---
 
