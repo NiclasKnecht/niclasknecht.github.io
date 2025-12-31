@@ -6,7 +6,7 @@ url: /teaching/econometrics_2024
 aliases:
     - /old_url.html
 tags: ["stata","econometrics"]
-author: ["Valerio Sterzi", "Niclas Knecht"]
+author: ["Prof. Valerio Sterzi", "Niclas Knecht"]
 description: "Econometrics" 
 summary: "I am currently not teaching this course."
 cover:
