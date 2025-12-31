@@ -12,4 +12,8 @@ cover:
 
 *Preliminary draft not yet available*
 
+
 This paper examines the impact of the 2015 and 2016 terrorist attacks in France on the number of British tourists visiting the country. Using quarterly tourism outflow data from a select group of countries, both before and after the attacks, the study employs a synthetic control method to analyze the short- and long-term effects of these incidents.
+
+
+![](/research/terrorism_tourism/fra_visits_gap_placebo.png)
