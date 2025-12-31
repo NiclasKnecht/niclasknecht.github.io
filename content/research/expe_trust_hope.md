@@ -1,7 +1,7 @@
 ---
 title: How Everyday Threats Undermine Trust and Hope - Experimental Evidence
 date: 2023-12-01
-url: /research/trust_emotions/
+url: /research/expe_trust_hope/
 author: ["Mael Astruc-Le Souder", "Olivier Bargain", "Niclas Knecht"]
 description: "" 
 summary: "Using videos depicting terrorism, environmental catastrophe and war"
