@@ -7,7 +7,7 @@ aliases:
     - /old_url.html
 tags: ["causality","econometrics"]
 author: ["Prof. Dr. Thomas Tröger", "Niclas Knecht"]
-description: "Mirco A" 
+description: "Micro A" 
 summary: "I am currently not teaching this course."
 cover:
     image: "/course_figure.png"
