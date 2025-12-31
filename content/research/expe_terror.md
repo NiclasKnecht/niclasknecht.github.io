@@ -1,5 +1,5 @@
 ---
-title: Terror and Conservative Shifts: Cross-fertilising approaches
+title: "Terror and Conservative Shifts: Cross-fertilising approaches"
 date: 2025-12-30
 url: /research/expe_terror/
 author: ["Alpaslan Akay", "Olivier Bargain", "Niclas Knecht"]
