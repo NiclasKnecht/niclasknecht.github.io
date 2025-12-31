@@ -12,5 +12,6 @@ cover:
 
 *Preliminary draft not yet available*
 
-- Experimental study on whether collective deliberation with the help of a LLM can elicit authentic preferences. Authentic preferences will be proxied through increased confidence in their choices, thus decreased variance in choices. 
-
+<div style="text-align: justify">  
+Experimental study on whether collective deliberation with the help of a LLM can elicit authentic preferences. Authentic preferences will be proxied through increased confidence in their choices, thus decreased variance in choices. 
+</div>
