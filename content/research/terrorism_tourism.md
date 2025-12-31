@@ -4,7 +4,7 @@ date: 2025-07-01
 url: /research/terrorism_tourism/
 author: ["Niclas Knecht"]
 description: "" 
-summary: "Utilising synthetic control method (SCM)"
+summary: "Using synthetic control method (SCM)"
 cover:
     alt: "Synthetic Control Method"
     relative: false
