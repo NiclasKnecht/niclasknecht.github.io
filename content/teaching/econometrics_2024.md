@@ -1,5 +1,3 @@
-rename file econometrics_2024.md
-
 ---
 title: "Tutorial Econometrics (SS24)" 
 date: 2024-01-10
@@ -25,6 +23,8 @@ showToc: false
 The course provided students with a more advanced look into the methods of Econometrics. Here, we looked at regular OLS, its problems, and potential remedies. In particular, the Gauss-Markov Theorem, the omitted variable bias (OVB), misspecified models, the issue of heteroskedasticity, and the linear probability model (LPM) will be discussed. In these tutorials, students worked on both theoretical problems, that are close to the course material by Valerio Sterzi, as well as practical problems, using the statistical software for data 'Stata'. 
 
 ---
+
+I am currently not teaching this course.
 
 <!---
 
