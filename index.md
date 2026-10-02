@@ -1,5 +1,5 @@
 ---
 layout: default
 lang: en
-permalink: /
+permalink: /en
 ---
