@@ -1,0 +1,51 @@
+{% assign t = site.data[page.lang] %}
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }} | {{ t.tagline }}</title>
+  <link rel="alternate" hreflang="de" href="{{ '/' | relative_url }}">
+  <link rel="alternate" hreflang="en" href="{{ '/en/' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <nav class="lang">
+    <a href="{{ '/' | relative_url }}"{% if page.lang == 'de' %} class="active"{% endif %}>DE</a>
+    <a href="{{ '/en/' | relative_url }}"{% if page.lang == 'en' %} class="active"{% endif %}>EN</a>
+  </nav>
+
+  <main class="wrap">
+    <img class="portrait" src="{{ '/assets/img/portrait.jpg' | relative_url }}" alt="{{ site.title }}">
+
+    <div class="content">
+      <h1>{{ site.title }}</h1>
+      <p class="tagline">{{ t.tagline }}</p>
+
+      <div class="buttons">
+        <a class="btn" href="{{ t.cv_file | relative_url }}" download>{{ t.btn_cv }}</a>
+        <a class="btn" href="mailto:{{ site.email }}">{{ t.btn_mail }}</a>
+        <a class="btn" href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+
+      {% for section in t.sections %}
+      <details>
+        <summary>{{ section.title }}</summary>
+        <ul>
+          {% for item in section.items %}
+          <li>
+            {% if item.period %}<span class="period">{{ item.period }}</span>{% endif %}
+            <div>
+              <strong>{{ item.title }}</strong>
+              {% if item.place %}<br>{{ item.place }}{% endif %}
+              {% if item.text %}<br><span class="muted">{{ item.text }}</span>{% endif %}
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </details>
+      {% endfor %}
+    </div>
+  </main>
+</body>
+</html>
