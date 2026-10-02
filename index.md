@@ -3,4 +3,6 @@ lang: en
 permalink: /en
 ---
 
-# This is the header 
+# {{ site.title }}
+
+ {% include navigation.html %}
