@@ -4,4 +4,4 @@ lang: en
 permalink: /en
 ---
 
-# {{ site.title}}
+# {{ site.title }}
