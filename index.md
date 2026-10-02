@@ -1,7 +1,6 @@
 ---
-layout: default
 lang: en
 permalink: /en
 ---
 
-# {{ site.title }}
+# This is the header 
