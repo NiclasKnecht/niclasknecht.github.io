@@ -1,6 +1,7 @@
 ---
 title: 
 description: 
+layout: default
 ---
 
 {{ page.description }}
