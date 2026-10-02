@@ -2,6 +2,10 @@
 lang: en
 ---
 
-# {{ site.title }}
+{% include navigation.html %}
 
- {% include navigation.html %}
+## Education
+
+## Experiences
+
+## Skills
