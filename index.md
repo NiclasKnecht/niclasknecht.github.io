@@ -1,5 +1,5 @@
 ---
-lang: en-uk
+lang: en
 ---
 
 {% include navigation.html %}
@@ -11,10 +11,5 @@ lang: en-uk
 ## Experiences
 
 ## Skills
-
-## Contact
-You can contact me:
-- [Email](mailto:{{ site.email }})
-- [LinkedIn]({{ site.linkedin }})
 
 {% include footer.html %}
