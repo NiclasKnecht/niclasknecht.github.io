@@ -1,8 +1,6 @@
 ---
-lang: en
----
 
-{% include navigation.html %}
+---
 
 {{ site.description }}
 
@@ -11,5 +9,3 @@ lang: en
 ## Experiences
 
 ## Skills
-
-{% include footer.html %}
