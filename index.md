@@ -15,5 +15,5 @@ lang: en-uk
 ## Contact
 You can contact me:
 - [Email](mailto:{{ site.email }})
-- [LinkedIn]({ site.linkedin }})
+- [LinkedIn]({{ site.linkedin }})
 
