@@ -1,0 +1,34 @@
+tagline: Ökonom
+btn_cv: Lebenslauf herunterladen
+btn_mail: E-Mail senden
+cv_file: /assets/cv/CV_Knecht_DE.pdf
+
+sections:
+  - title: Ausbildung
+    items:
+      - period: 2023-2026
+        title: Promotion in Volkswirtschaftslehre
+        place: Bordeaux School of Economics, Université de Bordeaux
+        text: "Dissertation: No Minor Threat: Emotions, Behaviour, and Economic Outcomes"
+      - period: 2019-2022
+        title: Master Volkswirtschaftslehre
+        place: Universität Mannheim
+      - period: 2015-2018
+        title: Bachelor Volkswirtschaftslehre
+        place: University of Cambridge
+
+  - title: Berufserfahrung
+    items:
+      - period: JJJJ-JJJJ
+        title: Position
+        place: Organisation
+        text: Kurzbeschreibung
+
+  - title: Kenntnisse
+    items:
+      - title: Methoden
+        text: Experimentelle und quasi-experimentelle Verfahren, Event Studies, Synthetic Control
+      - title: Software
+        text: Stata, R
+      - title: Sprachen
+        text: Deutsch, Englisch, Französisch
