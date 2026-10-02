@@ -12,4 +12,8 @@ lang: en-uk
 
 ## Skills
 
-[I would love to hear from you!](mailto:{{ site.email }})
+## Contact
+You can contact me:
+- [Email](mailto:{{ site.email }})
+- [LinkedIn]({ site.linkedin }})
+
