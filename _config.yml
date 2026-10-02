@@ -1,8 +1,20 @@
 title: "Niclas Knecht"
 description: "This is my personal website."
-layout: default
 
 
 email: "nk_admin@icloud.com"
 linkedin: "https://www.linkedin.com/in/niclas-knecht/"
 github: "https://github.com/NiclasKnecht"
+
+summary: " "
+
+sections:
+  -
+    name: "Education"
+    description: " "
+  -
+    name: "Experience"
+    description: " "
+  -
+    name: "Skills"
+    description: " "
