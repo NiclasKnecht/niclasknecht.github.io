@@ -11,3 +11,5 @@ lang: en-uk
 ## Experiences
 
 ## Skills
+
+[I would love to hear from you!](mailto:{{ site.email }})
