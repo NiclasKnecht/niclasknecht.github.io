@@ -17,3 +17,4 @@ You can contact me:
 - [Email](mailto:{{ site.email }})
 - [LinkedIn]({{ site.linkedin }})
 
+{% include footer.html %}
