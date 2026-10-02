@@ -1,0 +1,9 @@
+theme: minima
+title: Niclas Knecht
+description: Economist, Hamburg
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
