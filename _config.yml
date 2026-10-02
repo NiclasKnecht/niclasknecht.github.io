@@ -1,10 +1,4 @@
 title: "Niclas Knecht"
 description: "This is my personal website."
 email: "nk_admin@icloud.com"
-linkedin: "https://www.linkedin.com/in/niclasknecht/"
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: page
+linkedin: "https://www.linkedin.com/in/niclas-knecht/"
