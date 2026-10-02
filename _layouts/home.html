@@ -2,7 +2,9 @@
 layout: default
 ---
 
-{% for section in site.sections %}
+<p>{{ page.summary }}</p>
+
+{% for section in site.data.sections %}
 <h2>{{ section.name }}</h2>
 <p>{{ section.description }}</p>
 {% endfor %}
