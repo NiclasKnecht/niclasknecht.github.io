@@ -1,6 +1,7 @@
 # niclasknecht.github.io
-## My personal website 
 (deutsche Version weiter unten)\
+
+## My personal website 
 This repository contains all the relevant files for my personal website (niclasknecht.github.io). On it I display my CV and other relevant updates. 
 
 Further updates to follow.
