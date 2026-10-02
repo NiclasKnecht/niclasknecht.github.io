@@ -1,8 +1,9 @@
 ---
-
+title: 
+description: 
 ---
 
-{{ site.description }}
+{{ page.description }}
 
 ## Education
 
