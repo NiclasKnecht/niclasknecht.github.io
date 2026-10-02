@@ -1,6 +1,8 @@
 theme: minima
 title: Niclas Knecht
 description: Economist, Hamburg
+email: nk_admin@icloud.com
+linkedin: https://www.linkedin.com/in/niclasknecht/
 
 defaults:
   - scope:
