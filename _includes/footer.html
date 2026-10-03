@@ -1,6 +1,8 @@
 <hr>
-<p>Contact me</p>
+<p>Contact me: </p>
 <ul>
-    <li><a href="mailto:{{ site.email }}">Email</a></li>
+    <li><a href="mailto:{{ site.email | append: '?subject=Hello%20Niclas!' }}">Email</a></li>
     <li><a href="{{ site.linkedin }}">LinkedIn</a></li>
 </ul>
+
+<p>Copyright by {{ site.author }}. Last update: {{ site.time | date:"%Y-%m-%d" }}.</p>

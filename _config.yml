@@ -1,9 +1,27 @@
-title: "Niclas Knecht"
+title: "Niclas Knecht's personal website"
+author: "Niclas Knecht"
 description: "This is my personal website."
-
 
 email: "nk_admin@icloud.com"
 linkedin: "https://www.linkedin.com/in/niclas-knecht/"
 github: "https://github.com/NiclasKnecht"
 
-summary: " "
+summary: ""
+
+collections:
+  content:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: content
+    values:
+      layout: pages
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-polyglot

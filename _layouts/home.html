@@ -2,9 +2,24 @@
 layout: default
 ---
 
+<img src="assets/images/portrait.JPG" alt="Portrait of Niclas Knecht" title="Hello!" />
+
+<ul class="icon-links">
+  <li><a class="icon github" href="{{ site.github }}" aria-label="GitHub"></a></li>
+  <li><a class="icon linkedin" href="{{ site.linkedin }}" aria-label="LinkedIn"></a></li>
+  <li><a class="icon email" href="mailto:{{ site.email | append: '?subject=Hello%20Niclas!' }}" aria-label="Email"></a></li>
+</ul>
+
 <p>{{ page.summary }}</p>
 
-{% for section in site.data.sections %}
-<h2>{{ section.name }}</h2>
-<p>{{ section.description }}</p>
+<a href="{{ '/assets/documents/cv/' | append: site.data.cvs.en | relative_url }}" download>
+  Download my CV (PDF, 115 KB)
+</a>
+
+{% assign items = site.content | where: "lang", "en" | sort: "order" %}
+{% for item in items %}
+<section>
+  <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
+  <p>{{ item.description }}</p>
+</section>
 {% endfor %}
