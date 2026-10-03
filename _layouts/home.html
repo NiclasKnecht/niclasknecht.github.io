@@ -2,24 +2,29 @@
 layout: default
 ---
 
-<img src="assets/images/portrait.JPG" alt="Portrait of Niclas Knecht" title="Hello!" />
+<div class="start-page">
 
-<ul class="icon-links">
-  <li><a class="icon github" href="{{ site.github }}" aria-label="GitHub"></a></li>
-  <li><a class="icon linkedin" href="{{ site.linkedin }}" aria-label="LinkedIn"></a></li>
-  <li><a class="icon email" href="mailto:{{ site.email | append: '?subject=Hello%20Niclas!' }}" aria-label="Email"></a></li>
-</ul>
+  
+  <img src="assets/images/portrait.JPG" alt="Portrait of Niclas Knecht" title="Hello!" />
 
-<p>{{ page.summary }}</p>
+  <ul class="icon-links">
+    <li><a class="icon github" href="{{ site.github_url }}" aria-label="GitHub"></a></li>
+    <li><a class="icon linkedin" href="{{ site.linkedin_url }}" aria-label="LinkedIn"></a></li>
+    <li><a class="icon email" href="mailto:{{ site.email | append: '?subject=Hello%20Niclas!' }}" aria-label="Email"></a></li>
+  </ul>
 
-<a href="{{ '/assets/documents/cv/' | append: site.data.cvs.en | relative_url }}" download>
-  Download my CV (PDF, 115 KB)
-</a>
+  <p>{{ page.summary }}</p>
 
-{% assign items = site.content | where: "lang", "en" | sort: "order" %}
-{% for item in items %}
-<section>
-  <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
-  <p>{{ item.description }}</p>
-</section>
-{% endfor %}
+  <a href="{{ '/assets/documents/cv/' | append: site.data.cvs.en | relative_url }}" download>
+    Download my CV (PDF, 115 KB)
+  </a>
+
+  {% assign items = site.content | where: "lang", "en" | sort: "order" %}
+  {% for item in items %}
+  <section>
+    <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
+    <p>{{ item.description }}</p>
+  </section>
+  {% endfor %}
+
+</div>

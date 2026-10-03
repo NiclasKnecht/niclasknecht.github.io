@@ -1,4 +1,15 @@
-icon-links {
+.start-page {
+  display: grid;
+  gap: 1.5rem
+}
+
+.start-page img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.icon-links {
   display: flex;
   gap: 1rem;
   list-style: none;
