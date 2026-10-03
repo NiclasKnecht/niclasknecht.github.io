@@ -4,16 +4,43 @@
 }
 
 .home img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   border-radius: 50%;
+  justify-self: center;
+}
+
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgb(128 128 128 / 0.4);
+  font-size: 0.9rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6rem, 14rem));
+  gap: 1rem;
+  justify-content: start;
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid currentColor;
+  border-radius: 0.5rem;
+}
+
+.card h3,
+.card p {
+  margin: 0;
 }
 
 .icon-links {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   list-style: none;
   padding: 0;
+  justify-content: center;
 }
 
 .icon {
@@ -24,6 +51,51 @@
   mask: center / contain no-repeat;
 }
 
-.github   { mask-image: url("../images/icons/github.svg"); }
-.linkedin { mask-image: url("../images/icons/linkedin.svg"); }
-.email    { mask-image: url("../images/icons/envelope.svg"); }
+.github   { mask-image: url("../icons/github.svg"); }
+.linkedin { mask-image: url("../icons/linkedin.svg"); }
+.email    { mask-image: url("../icons/envelope.svg"); }
+
+:root {
+  --bg: #ffffff;
+  --text: #222222;
+  --link: #1a4fa0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --text: #e6e6e6;
+    --link: #7aa7e8;
+  }
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+a,
+a:visited {
+  color: var(--link);
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../fonts/EBGaramond-VariableFont_wght.ttf") format("truetype");
+  font-weight: 400 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../fonts/EBGaramond-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: 400 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+  font-family: "EB Garamond", Garamond, "Times New Roman", serif;
+  font-size: 1.2rem;
+}

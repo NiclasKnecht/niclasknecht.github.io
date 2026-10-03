@@ -21,7 +21,20 @@ layout: default
   {% for item in items %}
   <section>
     <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
-    <p>{{ item.description }}</p>
+    
+    <div class="cards">
+      {% assign entries = site.data[item.data] | slice: 0, 3 %}
+      {% for entry in entries %}
+      <div class="card">
+        <h3>{{ entry.title }}</h3>
+        {% for field in entry %}
+        {% unless field[0] == "title" %}
+        <p class="{{ field[0] }}">{{ field[1] }}</p>
+        {% endunless %}
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
   </section>
   {% endfor %}
 </div>
