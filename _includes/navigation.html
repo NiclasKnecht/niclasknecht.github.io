@@ -1,11 +1,11 @@
-{% assign home = '/' %}
-{% if page.lang == "de" %}{% assign home = '/de/' %}{% endif %}
+{% assign is_de = false %}
+{% if page.url contains "/de/" %}{% assign is_de = true %}{% endif %}
 
 <header>
-  <a class="site-name" href="{{ home | relative_url }}">Niclas Knecht</a>
+  <a class="site-name" href="{% if is_de %}{{ '/de/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">Niclas Knecht</a>
 
   <nav class="lang-switch" aria-label="Language">
-    {% if page.lang == "de" %}
+    {% if is_de %}
       <a href="{{ page.url | remove_first: '/de' | relative_url }}" lang="en" hreflang="en">EN</a>
       <span aria-hidden="true">/</span>
       <span aria-current="true">DE</span>

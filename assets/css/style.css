@@ -177,6 +177,7 @@ a.button:visited {
   border: 1px solid var(--accent);
   border-radius: 999px;
   color: var(--accent);
+  text-align: center;
   text-decoration: none;
   transition: background-color 0.2s, color 0.2s;
 }

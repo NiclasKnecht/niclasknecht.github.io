@@ -6,13 +6,19 @@ email: "hopper_wobbles2p@icloud.com"
 linkedin_url: "https://www.linkedin.com/in/niclas-knecht/"
 github_url: "https://github.com/NiclasKnecht"
 
+email-subject:
+  en: "Hello, Niclas!"
+  de: "Hallo, Niclas!"
+
 cvs:
   en: "2026-10-03 CV_Niclas_Knecht.pdf"
   de: 
 
 portrait: "portrait.jpg"
 
-summary: ""
+
+
+
 
 collections:
   content:
@@ -21,10 +27,17 @@ collections:
 
 defaults:
   - scope:
-      path: ""
+      path: "_content"
       type: content
     values:
       layout: pages
+      lang: en
+  - scope:
+      path: "_content/de"
+      type: content
+    values:
+      layout: pages
+      lang: de
 
 plugins:
   - jekyll-seo-tag
