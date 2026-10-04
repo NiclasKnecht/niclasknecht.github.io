@@ -6,14 +6,16 @@ layout: default
 {% assign prefix = page.url | slice: 0, 4 %}
 {% if prefix == "/de/" %}{% assign lang = "de" %}{% endif %}
 
+{% assign cv_size = site.cvs.size %}
+
 {% if lang == "de" %}
   {% assign t_alt = "Porträt von Niclas Knecht" %}
   {% assign t_hello = "Hallo" %}
-  {% assign t_cv = "Lebenslauf herunterladen (PDF, 115 KB)" %}
+  {% assign t_cv = "Lebenslauf herunterladen (PDF, " | append: cv_size | append: ")" %}
 {% else %}
   {% assign t_alt = "Portrait of Niclas Knecht" %}
   {% assign t_hello = "Hello" %}
-  {% assign t_cv = "Download CV (PDF, 115 KB)" %}
+  {% assign t_cv = "Download CV (PDF, " | append: cv_size | append: ")" %}
 {% endif %}
 
 <div class="home">

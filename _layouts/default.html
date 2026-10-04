@@ -1,17 +1,15 @@
 <!doctype html>
-<html lang="en">
+{% assign page_lang = "en" %}
+{% if page.url contains "/de/" %}{% assign page_lang = "de" %}{% endif %}
+<html lang="{{ page_lang }}">
   <head>
     {% include head.html %}
   </head>
   <body>
-    <nav>
     {% include navigation.html %}
-    </nav>
     <main>
       {{ content }}
-    </main>  
-    <footer>
-      {% include footer.html %}
-    </footer>
+    </main>
+    {% include footer.html %}
   </body>
 </html>

@@ -1,6 +1,7 @@
 title: "Niclas Knecht's personal website"
 author: "Niclas Knecht"
 description: "This is my personal website."
+url: "https://niclasknecht.github.io"
 
 email: "hopper_wobbles2p@icloud.com"
 linkedin_url: "https://www.linkedin.com/in/niclas-knecht/"
@@ -11,14 +12,11 @@ email-subject:
   de: "Hallo, Niclas!"
 
 cvs:
-  en: "2026-10-03 CV_Niclas_Knecht.pdf"
-  de: 
+  en: "2026-10-04 CV_Niclas_Knecht.pdf"
+  de: "2026-10-04 Lebenslauf_Niclas_Knecht.pdf"
+  size: "106 KB"
 
 portrait: "portrait.jpg"
-
-
-
-
 
 collections:
   content:
@@ -42,5 +40,3 @@ defaults:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-redirect-from
-  - jekyll-polyglot

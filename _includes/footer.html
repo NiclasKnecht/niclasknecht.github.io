@@ -1,8 +1,23 @@
-<p>Contact me:</p>
-<ul class="icon-links">
-    <li><a class="icon email" href="mailto:{{ site.email | append: '?subject=Hello%20Niclas!' }}" aria-label="Email">Email</a></li>
-    <li><a class="icon linkedin" href="{{ site.linkedin_url }}" aria-label="LinkedIn">LinkedIn</a></li>
-</ul>
+{% assign is_de = false %}
+{% if page.url contains "/de/" %}{% assign is_de = true %}{% endif %}
 
-<p><small>&copy; {{ site.time | date: "%Y" }} {{ site.author }}.
-Last updated <time datetime="{{ site.time | date: '%Y-%m-%d' }}">{{ site.time | date: "%-d %B %Y" }}</time>.</small></p>
+<footer>
+  <p>{% if is_de %}Schreib mir:{% else %}Contact me:{% endif %}</p>
+
+  <ul class="icon-links">
+    <li><a class="icon email" href="mailto:{{ site.email }}?subject={% if is_de %}Hallo{% else %}Hello{% endif %}%20Niclas!" aria-label="Email"></a></li>
+    <li><a class="icon linkedin" href="{{ site.linkedin_url }}" aria-label="LinkedIn"></a></li>
+    <li><a class="icon github" href="{{ site.github_url }}" aria-label="GitHub"></a></li>
+  </ul>
+
+  <p>
+    <small>
+      &copy; {{ site.time | date: "%Y" }} {{ site.author }}.
+      {% if is_de %}
+        Zuletzt aktualisiert am {{ site.time | date: "%d.%m.%Y" }}.
+      {% else %}
+        Last updated {{ site.time | date: "%-d %B %Y" }}.
+      {% endif %}
+    </small>
+  </p>
+</footer>
