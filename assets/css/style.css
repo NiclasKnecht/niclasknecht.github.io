@@ -17,6 +17,17 @@ footer {
   font-size: 0.9rem;
 }
 
+footer .icon-links {
+  gap: 1.5rem;
+  justify-content: flex-start;
+  margin: 0.5rem 0;
+}
+
+footer .icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6rem, 14rem));
@@ -37,7 +48,7 @@ footer {
 
 .icon-links {
   display: flex;
-  gap: 2rem;
+  gap: 2.5rem;
   list-style: none;
   padding: 0;
   justify-content: center;
@@ -45,8 +56,8 @@ footer {
 
 .icon {
   display: block;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
   background-color: currentColor;
   mask: center / contain no-repeat;
 }

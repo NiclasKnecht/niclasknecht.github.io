@@ -2,9 +2,15 @@ title: "Niclas Knecht's personal website"
 author: "Niclas Knecht"
 description: "This is my personal website."
 
-email: "nk_admin@icloud.com"
+email: "hopper_wobbles2p@icloud.com"
 linkedin_url: "https://www.linkedin.com/in/niclas-knecht/"
 github_url: "https://github.com/NiclasKnecht"
+
+cvs:
+  - en: "2026-10-03 CV_Niclas_Knecht.pdf"
+  - de: 
+
+portrait: "portrait.jpg"
 
 summary: ""
 

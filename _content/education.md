@@ -1,9 +1,18 @@
 ---
 title: Education
-description: "I have obtained a PhD from the Université de Bordeaux, a MSc from the Universität Mannheim and a BA (and MA) from the University of Cambridge."
+description: "PhD, Master's and undergraduate degree."
 order: 1
 lang: en
-data: education
+entries:
+  - title: "PhD in Economics"
+    uni: "Université de Bordeaux"
+    time: "2023–2026"
+  - title: "MSc Economics"
+    uni: "Universität Mannheim"
+    time: "2019–2022"
+  - title: "BA Economics"
+    uni: "University of Cambridge"
+    time: "2015–2018"
 ---
 
 (the detailed content follows here)

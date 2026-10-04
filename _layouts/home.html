@@ -3,17 +3,17 @@ layout: default
 ---
 
 <div class="home">
-  <img src="assets/images/portrait.JPG" alt="Portrait of Niclas Knecht" title="Hello!" />
+  <img src="{{ '/assets/images/cv/' | append: site.portrait | relative_url }}" alt="Portrait of Niclas Knecht" title="Hello!" />
 
   <ul class="icon-links">
-    <li><a class="icon github" href="{{ site.github_url }}" aria-label="GitHub"></a></li>
-    <li><a class="icon linkedin" href="{{ site.linkedin_url }}" aria-label="LinkedIn"></a></li>
     <li><a class="icon email" href="mailto:{{ site.email | append: '?subject=Hello%20Niclas!' }}" aria-label="Email"></a></li>
+    <li><a class="icon linkedin" href="{{ site.linkedin_url }}" aria-label="LinkedIn"></a></li>
+    <li><a class="icon github" href="{{ site.github_url }}" aria-label="GitHub"></a></li>
   </ul>
 
   <p>{{ page.summary }}</p>
 
-  <a href="{{ '/assets/documents/cv/' | append: site.data.cvs.en | relative_url }}" download>
+  <a href="{{ '/assets/documents/cv/' | append: site.cvs.en | relative_url }}" download>
     Download my CV (PDF, 115 KB)
   </a>
 
@@ -23,8 +23,8 @@ layout: default
     <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
     
     <div class="cards">
-      {% assign entries = site.data[item.data] | slice: 0, 3 %}
-      {% for entry in entries %}
+      {% assign entries = item.entries %}
+      {% for entry in entries limit: 3 %}
       <div class="card">
         <h3>{{ entry.title }}</h3>
         {% for field in entry %}

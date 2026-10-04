@@ -1,9 +1,10 @@
 <hr>
 
-<p>Contact me: </p>
+<p>Contact me:</p>
 <ul class="icon-links">
     <li><a class="icon email" href="mailto:{{ site.email | append: '?subject=Hello%20Niclas!' }}" aria-label="Email">Email</a></li>
     <li><a class="icon linkedin" href="{{ site.linkedin_url }}" aria-label="LinkedIn">LinkedIn</a></li>
 </ul>
 
-<p>Copyright by {{ site.author }}. Last update: {{ site.time | date:"%Y-%m-%d" }}.</p>
+<p><small>&copy; {{ site.time | date: "%Y" }} {{ site.author }}.
+Last updated <time datetime="{{ site.time | date: '%Y-%m-%d' }}">{{ site.time | date: "%-d %B %Y" }}</time>.</small></p>
