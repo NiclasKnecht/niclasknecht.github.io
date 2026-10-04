@@ -1,6 +1,18 @@
- <table>
-     <tr>
-         <td><a href="{{ '/' | relative_url }}"><h1>Niclas Knecht</h1></a></td>
-     </tr>
- </table>
- <hr>
+{% assign home = '/' %}
+{% if page.lang == "de" %}{% assign home = '/de/' %}{% endif %}
+
+<header>
+  <a class="site-name" href="{{ home | relative_url }}">Niclas Knecht</a>
+
+  <nav class="lang-switch" aria-label="Language">
+    {% if page.lang == "de" %}
+      <a href="{{ page.url | remove_first: '/de' | relative_url }}" lang="en" hreflang="en">EN</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="true">DE</span>
+    {% else %}
+      <span aria-current="true">EN</span>
+      <span aria-hidden="true">/</span>
+      <a href="{{ page.url | prepend: '/de' | relative_url }}" lang="de" hreflang="de">DE</a>
+    {% endif %}
+  </nav>
+</header>

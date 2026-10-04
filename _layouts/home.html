@@ -2,8 +2,10 @@
 layout: default
 ---
 
+{% assign lang = page.lang | default: "en" %}
+
 <div class="home">
-  <img src="{{ '/assets/images/cv/' | append: site.portrait | relative_url }}" alt="Portrait of Niclas Knecht" title="Hello!" />
+  <img src="{{ '/assets/images/' | append: site.portrait | relative_url }}" alt="Portrait of Niclas Knecht" title="Hello!">
 
   <ul class="icon-links">
     <li><a class="icon email" href="mailto:{{ site.email | append: '?subject=Hello%20Niclas!' }}" aria-label="Email"></a></li>
@@ -11,28 +13,24 @@ layout: default
     <li><a class="icon github" href="{{ site.github_url }}" aria-label="GitHub"></a></li>
   </ul>
 
-  <p>{{ page.summary }}</p>
+  {{ page.summary | markdownify }}
 
-  <a href="{{ '/assets/documents/cv/' | append: site.cvs.en | relative_url }}" download>
-    Download my CV (PDF, 115 KB)
-  </a>
+  <a class="button" href="{{ '/assets/documents/cv/' | append: site.cvs[lang] | relative_url }}" download>Download CV (PDF, 115 KB)</a>
 
-  {% assign items = site.content | where: "lang", "en" | sort: "order" %}
+  {% assign items = site.content | where: "lang", lang | sort: "order" %}
   {% for item in items %}
   <section>
     <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
-    
     <div class="cards">
-      {% assign entries = item.entries %}
-      {% for entry in entries limit: 3 %}
-      <div class="card">
-        <h3>{{ entry.title }}</h3>
-        {% for field in entry %}
-        {% unless field[0] == "title" %}
-        <p class="{{ field[0] }}">{{ field[1] }}</p>
-        {% endunless %}
-        {% endfor %}
-      </div>
+      {% for entry in item.entries limit: 3 %}
+        {% if entry.url %}<a class="card" href="{{ entry.url }}">{% else %}<div class="card">{% endif %}
+          <h3>{{ entry.title }}</h3>
+          {% for field in entry %}
+            {% unless field[0] == "title" or field[0] == "url" %}
+            <p class="{{ field[0] }}">{{ field[1] }}</p>
+            {% endunless %}
+          {% endfor %}
+        {% if entry.url %}</a>{% else %}</div>{% endif %}
       {% endfor %}
     </div>
   </section>
