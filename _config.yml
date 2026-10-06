@@ -1,22 +1,24 @@
-title: "Niclas Knecht's personal website"
-author: "Niclas Knecht"
-description: "This is my personal website."
-url: "https://niclasknecht.github.io"
+title: Niclas Knecht
+description: Personal website of Niclas Knecht
+author: Niclas Knecht
+url: "https://username.github.io"
+email: your.address@example.com
+linkedin_url: "https://www.linkedin.com/in/..."
+github_url: "https://github.com/..."
+portrait: "portrait.jpg"
 
-email: "hopper_wobbles2p@icloud.com"
-linkedin_url: "https://www.linkedin.com/in/niclas-knecht/"
-github_url: "https://github.com/NiclasKnecht"
-
-email-subject:
-  en: "Hello, Niclas!"
-  de: "Hallo, Niclas!"
+email_subject:
+  en: "Hello Niclas!"
+  de: "Hallo Niclas!"
 
 cvs:
-  en: "2026-10-04 CV_Niclas_Knecht.pdf"
-  de: "2026-10-04 Lebenslauf_Niclas_Knecht.pdf"
-  size: "106 KB"
+  en: "your-english-cv.pdf"
+  de: "your-german-cv.pdf"
+cv_size: "115 KB"
 
-portrait: "portrait.jpg"
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 collections:
   content:
@@ -36,7 +38,3 @@ defaults:
     values:
       layout: pages
       lang: de
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap

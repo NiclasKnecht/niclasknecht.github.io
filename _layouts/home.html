@@ -3,10 +3,9 @@ layout: default
 ---
 
 {% assign lang = "en" %}
-{% assign prefix = page.url | slice: 0, 4 %}
-{% if prefix == "/de/" %}{% assign lang = "de" %}{% endif %}
+{% if page.url contains "/de/" %}{% assign lang = "de" %}{% endif %}
 
-{% assign cv_size = site.cvs.size %}
+{% assign cv_size = site.cv_size %}
 
 {% if lang == "de" %}
   {% assign t_alt = "Porträt von Niclas Knecht" %}
@@ -19,34 +18,38 @@ layout: default
 {% endif %}
 
 <div class="home">
-  <img src="{{ '/assets/images/' | append: site.portrait | relative_url }}" alt="{{ t_alt }}" title="{{ t_hello }}!">
+  <div class="home-aside">
+    <img src="{{ '/assets/images/' | append: site.portrait | relative_url }}" alt="{{ t_alt }}" title="{{ t_hello }}!">
 
-  <ul class="icon-links">
-    <li><a class="icon email" href="mailto:{{ site.email }}?subject={{ site.email-subject[lang] }}" aria-label="Email"></a></li>
-    <li><a class="icon linkedin" href="{{ site.linkedin_url }}" aria-label="LinkedIn"></a></li>
-    <li><a class="icon github" href="{{ site.github_url }}" aria-label="GitHub"></a></li>
-  </ul>
+    <ul class="icon-links">
+      <li><a class="icon email" href="mailto:{{ site.email }}?subject={{ site.email_subject[lang] | uri_escape }}" aria-label="Email"></a></li>
+      <li><a class="icon linkedin" href="{{ site.linkedin_url }}" aria-label="LinkedIn"></a></li>
+      <li><a class="icon github" href="{{ site.github_url }}" aria-label="GitHub"></a></li>
+    </ul>
+  </div>
 
-  {{ page.summary | markdownify }}
+  <div class="home-main">
+    {{ page.summary | markdownify }}
 
-  <a class="button" href="{{ '/assets/documents/cv/' | append: site.cvs[lang] | relative_url }}" download>{{ t_cv }}</a>
+    <a class="button" href="{{ '/assets/documents/cv/' | append: site.cvs[lang] | relative_url }}" download>{{ t_cv }}</a>
 
-  {% assign items = site.content | where: "lang", lang | where_exp: "i", "i.order" | sort: "order" %}
-  {% for item in items %}
-  <section>
-    <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
-    <div class="cards">
-      {% for entry in item.entries limit: 3 %}
-        {% if entry.url %}<a class="card" href="{{ entry.url }}">{% else %}<div class="card">{% endif %}
-          <h3>{{ entry.title }}</h3>
-          {% for field in entry %}
-            {% unless field[0] == "title" or field[0] == "url" %}
-            <p class="{{ field[0] }}">{{ field[1] }}</p>
-            {% endunless %}
-          {% endfor %}
-        {% if entry.url %}</a>{% else %}</div>{% endif %}
-      {% endfor %}
-    </div>
-  </section>
-  {% endfor %}
+    {% assign items = site.content | where: "lang", lang | where_exp: "i", "i.order" | sort: "order" %}
+    {% for item in items %}
+    <section>
+      <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
+      <div class="cards">
+        {% for entry in item.entries limit: 3 %}
+          {% if entry.id %}<a class="card" href="{{ item.url | relative_url }}#{{ entry.id }}">{% else %}<div class="card">{% endif %}
+            <h3>{{ entry.title }}</h3>
+            {% for field in entry %}
+              {% unless field[0] == "title" or field[0] == "id" %}
+              <p class="{{ field[0] }}">{{ field[1] }}</p>
+              {% endunless %}
+            {% endfor %}
+          {% if entry.id %}</a>{% else %}</div>{% endif %}
+        {% endfor %}
+      </div>
+    </section>
+    {% endfor %}
+  </div>
 </div>

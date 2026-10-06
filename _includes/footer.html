@@ -5,7 +5,7 @@
   <p>{% if is_de %}Schreib mir:{% else %}Contact me:{% endif %}</p>
 
   <ul class="icon-links">
-    <li><a class="icon email" href="mailto:{{ site.email }}?subject={% if is_de %}Hallo{% else %}Hello{% endif %}%20Niclas!" aria-label="Email"></a></li>
+    <li><a class="icon email" href="mailto:{{ site.email }}?subject={% if is_de %}{{ site.email_subject.de | uri_escape }}{% else %}{{ site.email_subject.en | uri_escape }}{% endif %}" aria-label="Email"></a></li>
     <li><a class="icon linkedin" href="{{ site.linkedin_url }}" aria-label="LinkedIn"></a></li>
     <li><a class="icon github" href="{{ site.github_url }}" aria-label="GitHub"></a></li>
   </ul>
