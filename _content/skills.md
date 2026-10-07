@@ -3,9 +3,10 @@ title: Skills
 description: "Hard skills I have learned."
 order: 3
 lang: en
+grouped: false
 entries: 
   - title: "Languages"
-    what: "German (native), English (native), French (B2)" 
+    what: "German (native), English (native), French (B2), Spanish (B1)" 
   - title: "Coding"
     what: "Stata, R, HTML, CSS, Python, Git"  
   - title: "Software"

@@ -3,6 +3,7 @@ title: Berufliche Erfahrung
 description: ""
 order: 2
 lang: de
+grouped: true
 entries:
   - id: "research-assistant"
     title: "Wissenschaftlicher Mitarbeiter"

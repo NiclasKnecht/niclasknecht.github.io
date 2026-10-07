@@ -2,6 +2,8 @@
 title: Ausbildung
 description: Promotion, Master und Bachelor.
 order: 1
+lang: de
+grouped: false
 entries:
   - id: "phd-economics"
     title: "PhD Economics"
@@ -18,7 +20,7 @@ entries:
 ---
 
 ## PhD Economics <span>2023–2026</span> {#phd-economics}
-### [Université de Bordeaux (Frankreich)](https://www.bse.u-bordeaux.fr/)
+### [Université de Bordeaux](https://www.bse.u-bordeaux.fr/)
 
 Beschreibung
 

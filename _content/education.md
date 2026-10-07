@@ -2,6 +2,8 @@
 title: Education
 description: PhD, Master's and undergraduate degrees.
 order: 1
+lang: en
+grouped: false
 entries:
   - id: "phd-economics"
     title: "PhD Economics"
