@@ -21,7 +21,7 @@ entries:
 Description
 
 - Dissertation: *No Minor Threat: Emotions, Behaviour and Economic Outcomes*
-- Research focus:
+- Research focus: Behavioral and experimental economics, welfare economics, political economy
 - Financed by the [Grand Programme de Recherche "HOPE"](https://www.bse.u-bordeaux.fr/recherche/grand-programme-de-recherche-hope/)
 
 ## MSc Economics <span>2019–2022</span> {#msc-economics}
@@ -29,17 +29,17 @@ Description
 
 Description
 
-- Grade: 1.1
-- Master thesis:
-- Focus: 
+- Grade: 1.3 (German scale, 1.0 = best)
+- Master thesis: *What Effect Does Relative Group Size Have on Trust? Evidence from the Lab*
+- Focus: Behavioral and experimental economics, and sociology
 
 ## BA Economics <span>2015–2018</span> {#ba-economics}
 ### [University of Cambridge](https://www.econ.cam.ac.uk/)
 
 Description
 
-- Grade: 2:1 (Upper second-class honours)
-- Focus:
+- Classification: 2:1 (Upper second-class honours)
+- Focus: Development economics
 
 ## Abitur <span>2006–2014</span> {#abitur}
 ### [Hansa-Gymnasium Bergedorf](https://www.hansa-gymnasium.de/)
