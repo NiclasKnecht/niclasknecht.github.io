@@ -8,9 +8,9 @@ entries:
   - title: "Sprachen"
     what: "Deutsch (muttersprachlich), Englisch (muttersprachlich), Französisch (B2), Spanisch (B1)" 
   - title: "Coding"
-    what: "Stata, R, HTML, CSS, Python, Git"  
+    what: "Stata, R, Python, HTML, CSS, Git"  
   - title: "Software"
-    what: "MS Office, Photoshop"  
+    what: "MS Office, Photoshop, WordPress"
 ---
 
 (detaillierter wird noch kommen)
