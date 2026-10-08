@@ -28,7 +28,7 @@ entries:
 ## MSc Economics <span>2019–2022</span> {#msc-economics}
 ### [Universität Mannheim](https://www.vwl.uni-mannheim.de/)
 - Note: 1,3
-- Masterarbeit: *What Effect Does Relative Group Size Have on Trust?: Evidence from the Lab*
+- Masterarbeit: *What Effect Does Relative Group Size Have on Trust? Evidence from the Lab*
 - Schwerpunkt: Statistik, Verhaltens- und Experimentalökonomik
 
 ## BA Economics <span>2015–2018</span> {#ba-economics}
