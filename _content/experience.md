@@ -5,7 +5,7 @@ order: 2
 lang: en
 grouped: true
 entries:
-  - id: "research-assistant"
+  - id: "doctorant-contractuel"
     title: "Research assistant"
     where: "University of Bordeaux"
     time: "2023–2026"
@@ -16,6 +16,7 @@ entries:
   - id: "teaching-assistant-bdx"
     title: "Teaching assistant"
     where: "University of Bordeaux"
+    time: "2023–2025"
 ---
 
 ## Outside of academia
@@ -34,7 +35,7 @@ entries:
 
 ## Academia
 
-### Research assistant (doctorant contractuel) <span>2023–2026</span> {#research-assistant}
+### Doctoral researcher (doctorant contractuel) <span>2023–2026</span> {#doctorant-contractuel}
 #### [University of Bordeaux](https://www.bse.u-bordeaux.fr/)
 - Led the design and implementation of randomised online experiments in collaboration with psychologists (LabPsy, University of Bordeaux), including experimental design, data collection, cleaning, and analysis.
 - Analysed large cross-country panel and event data (SOEP, GTD) using quasi-experimental methods.
@@ -71,7 +72,7 @@ entries:
 - Helped plan golf tournaments and maintained the course.
 
 ### Sales associate <span>2015</span> {#sales-associate}
-#### [H&M (Hamburg)](https://www.hm.com/)
+#### H&M (Hamburg)
 - Handled the till, advised customers, and helped organise the stockroom.
 
 ### Temporary worker <span>2014, 2016, 2017</span> {#temporary-worker}
